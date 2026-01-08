@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
+
 
 export default function Hero() {
     return (
@@ -74,6 +76,7 @@ export default function Hero() {
                             ">
                                 Get a Quote
                             </button>
+                            <Link href="/services">
 
                             <button className="
                                 rounded-xl
@@ -85,7 +88,7 @@ export default function Hero() {
                                 transition
                             ">
                                 Our Services
-                            </button>
+                            </button></Link>
                         </div>
                     </motion.div>
 

@@ -4,7 +4,7 @@ const works = [
     {
         title: "CNC Wall Décor Panel",
         category: "CNC / Laser Cutting",
-        image: "https://images.unsplash.com/photo-1581092334554-1c2c5c74f4d0",
+        image: "https://images.unsplash.com/photo-1602526432604-029a709e131c",
     },
     {
         title: "Custom Acrylic Signage",
@@ -24,7 +24,7 @@ const works = [
     {
         title: "Laser Cut MDF Design",
         category: "MDF Cutting",
-        image: "https://images.unsplash.com/photo-1602526432604-029a709e131c",
+        image: "https://images.unsplash.com/photo-1581092334554-1c2c5c74f4d0",
     },
     {
         title: "Brand Nameplate",
@@ -32,6 +32,7 @@ const works = [
         image: "https://images.unsplash.com/photo-1604014237800-1c9102c219da",
     },
 ];
+
 
 export default function FeaturedWork() {
     return (

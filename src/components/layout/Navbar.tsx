@@ -159,7 +159,13 @@ export default function Navbar() {
                             >
                                 Work
                             </Link>
-
+                            <Link
+                                href="/about/page"
+                                onClick={() => setOpen(false)}
+                                className="block text-base"
+                            >
+                                About Us
+                            </Link>
                             <Link
                                 href="#contact"
                                 onClick={() => setOpen(false)}
@@ -167,6 +173,7 @@ export default function Navbar() {
                             >
                                 Contact
                             </Link>
+
                         </div>
                     </motion.div>
                 )}

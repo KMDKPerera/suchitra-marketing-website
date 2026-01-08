@@ -9,5 +9,7 @@ export const navLinks = [
         ],
     },
     { name: "Work", href: "#work" },
+    { name: "About Us", href: "/about" },
     { name: "Contact", href: "#contact" },
+
 ];
