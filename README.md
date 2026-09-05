@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Suchithra Marketing Website
+
+A modern, responsive marketing website for **Suchithra Creation** — focused on showcasing creative digital solutions, branding services, CNC work, laser cutting, printing, stationery, and custom-crafted products.
+
+## What I Used
+
+This website was built as a **Next.js** project and includes:
+
+- A responsive homepage with hero, services, workflow, and contact sections
+- A sticky navigation bar with desktop dropdown and mobile menu
+- Reusable section-based components
+- Smooth scrolling and polished UI styling
+- Animated interactions for a modern user experience
+- A footer with business and contact details
+
+## Technologies Used
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide React**
+- **next/image** and **next/link**
+
+## Project Structure
+
+- `src/app` — App Router pages and global layout
+- `src/components/layout` — Navbar and Footer
+- `src/components/sections` — Homepage content sections
+- `src/constants` — Shared navigation data
+
+## Main Features
+
+- Responsive design for desktop and mobile
+- Animated hero and process sections
+- Service showcase cards
+- Dropdown navigation for services
+- Clean branding-focused layout
+- Optimized image handling with Next.js
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project can be deployed easily on **Vercel** or any platform that supports Next.js.
 
-## Learn More
+## About
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for **Suchithra Creation** to present its creative services and make it easier for customers to explore offerings and get in touch.
